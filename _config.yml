@@ -23,70 +23,98 @@ linkedin_username: khant-htoo-naing-31799a234
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Khant Htoo Naing. I am from Myanmar. I am currently studying IT in Thailand.
+  Hi, my name is Khant Htoo Naing. I am from Myanmar. I am currently studying IT in Thailand.<br>
   I am an enthusiastic individual in machine learning and AI. I enjoy exploring and inspecting through data and find solutions in it. 
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  I am deeply interested in <mark>Machine Learning</mark> and <mark>Deep Learning</mark> with <mark>Python</mark>. I am also interested in <mark>Computer Vision</mark> and <mark>Natural Language Processing</mark>. I am familiar and have done projects with <mark>PyTorch</mark> and <mark>TensorFlow</mark> libraries and understand their workflows. My goal is to become a professional in the field of <mark>AI</mark> and <mark>Machine Learning</mark>.
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
+        title: Classification of energy consumption
+        link: github.com/Hokfu/Flower-image-classification
         # link_text: Project Website
         additional_links:
-          - title:  sproogen/modern-resume-theme
+          - title:  Flower Image Classification
             icon: fab fa-github
             url: github.com/sproogen/modern-resume-theme
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          This project is  the start of my deep learning journey.
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
+          I worked on this project as a capstone project while learning machine learning course. This project includes EDA, model training, evaluation and containarization of the model. I used Tensorflow and Keras to build a model that can classify between daisy and dandelion. I used a pre-trained model VGG16 and fine-tuned it to get the best results.
+      - layout: top-middle
+        title: Classification of energy consumption in steel company
+        link: github.com/Hokfu/Energy-Consumption-Model
+        # link_text: Project Website
+        additional_links:
+          - title:  Energy Load Type Classification
+            icon: fab fa-github
+            url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          This is my capstone project for my machine learning course.
+        description: | # this will include new lines to allow paragraphs
+          This project is about classification of load type in a steel factory. This includes data preprocessing, EDA, model training, evaluation and deployment in Docker container. I tried different models such as logistic regression and random forest to evaluate the data and did hyper parameter tuning with random forest model. I used Flask to deploy the model in a Docker container.
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
+        title: Geni Asia
+        link: https://geni.asia/
         # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
+        sub_title: Research Internship
+        caption: December 2023 - Present
         quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+         Researching existing LLMs and finding the most suitable model for Burmese language
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+            There are many different language models that are available for English language. However, there are not many researches on Burmese language. My team is currently researching on existing language models and finding the most suitable model for Burmese language. We are also working on fine-tuning the model to get the best results.
+      - layout: left
+        title: Rangsit University Internation College
+        link: 
+        # link_text: boringcompany.com
+        sub_title: Teaching Assistant/Web Developer
+        caption: December 2023 - Present
+        quote: >
+         Teaching assistant and web developer in Rangsit University International College
+        description: | # this will include new lines to allow paragraphs
+            I worked part time as a teaching assistant and web developer in Rangsit University International College for four months. This job involves helping students in developing simple web applications and my team also have to develop web apps for the college staffs and students.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
+        title: Yangon Technological University
+        caption: 2016 - 2020
+        sub_title: Bachelor of Engineering (Computer Engineering and Information Technology)
         quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+          Yangon Technological University is one of the top universities in Myanmar.
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          During my time at Yangon, I spent most of the time studying programming and computer science. However, due to the country's situation, I left the university in my fourth year and continued my studies in Thailand.
+      - layout: left
+        title: Rangsit University
+        caption: 2022 - Current
+        sub_title: Bachelor of Science (Information and Communication Technology)
+        quote: >
+          Rangsit University is a private university in Thailand.
+        description: | # this will include new lines to allow paragraphs
+          I continued studying in Rangsit University International College, Thailand. Here, I met amazing professors and friends who helped me to improve my skills and knowledge in IT.
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
-
-  - title: A Little More About Me
+  - title: Fun Facts More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      Alongside my interests in machine learning and AI, I also enjoy the following activities:
+      - [Dota 2](https://www.dota2.com/home)
+      - Football
+      - Table Tennis
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      I also enjoy reading books and watching movies and television series in my free time. I enjoy watching Dota 2 tournaments a lot. I also enjoy playing football and table tennis with my friends. My other interests include watching Chinese martial arts dramas. I can speak Burmese and English fluently and can speak Chinese for daily conversations.
 
 # Footer
 footer_show_references: true
