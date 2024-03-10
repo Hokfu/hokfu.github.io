@@ -12,7 +12,7 @@ email: khanthtoonaing2000@gmail.com
 website: https://hokfu.github.io
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: never
 
 # Social links
 twitter_username: KhantHtooNaing2
@@ -26,7 +26,7 @@ about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Khant Htoo Naing. I am from Myanmar. I am currently studying IT in Thailand.<br>
   I am an enthusiastic individual in machine learning and AI. I enjoy exploring and inspecting through data and find solutions in it. 
 
-  I am deeply interested in <mark>Machine Learning</mark> and <mark>Deep Learning</mark> with <mark>Python</mark>. I am also interested in <mark>Computer Vision</mark> and <mark>Natural Language Processing</mark>. I am familiar and have done projects with <mark>PyTorch</mark> and <mark>TensorFlow</mark> libraries and understand their workflows. My goal is to become a professional in the field of <mark>AI</mark> and <mark>Machine Learning</mark>.
+  I am deeply interested in <mark>Machine Learning</mark> and <mark>Deep Learning</mark> with <mark>Python</mark>. I am also interested in <mark>Computer Vision</mark> and <mark>Natural Language Processing</mark>. I am familiar and have done projects with <mark>PyTorch</mark> and <mark>TensorFlow</mark> libraries and understand their workflows. I am currently planning to learn <mark>AWS</mark> and its workflows. My goal is to become a professional in the field of <mark>AI</mark> and <mark>Machine Learning</mark>. 
 
 content:
   - title: Projects # Title for the section
