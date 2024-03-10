@@ -39,7 +39,7 @@ content:
         additional_links:
           - title:  Flower Image Classification
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+            url: github.com/Hokfu/Flower-image-classification
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
@@ -54,7 +54,7 @@ content:
         additional_links:
           - title:  Energy Load Type Classification
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+            url: github.com/Hokfu/Energy-Consumption-Model
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
