@@ -24,10 +24,12 @@ linkedin_username: khant-htoo-naing-31799a234
 about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Khant Htoo Naing. I am from Myanmar. I am currently studying IT in Thailand.<br>
-  I am an enthusiastic individual in machine learning and AI. I enjoy exploring and inspecting through data and find solutions in it. 
+  I'm passionate about using data to solve problems, and that's what drew me to machine learning and AI.
+  I enjoy exploring and inspecting through data and find solutions in it. 
 
-  I am deeply interested in <mark>Machine Learning</mark> and <mark>Deep Learning</mark> with <mark>Python</mark>. I am also interested in <mark>Computer Vision</mark> and <mark>Natural Language Processing</mark>. I am familiar and have done projects with <mark>PyTorch</mark> and <mark>TensorFlow</mark> libraries and understand their workflows. I am currently planning to learn <mark>AWS</mark> and its workflows. My goal is to become a professional in the field of <mark>AI</mark> and <mark>Machine Learning</mark>. 
-
+  I am particularly interested in <mark>Machine Learning</mark> and <mark>Deep Learning</mark> with <mark>Python</mark>. 
+  I am also interested in <mark>Computer Vision</mark> and <mark>Natural Language Processing</mark>. I am familiar and have done projects with <mark>PyTorch</mark> and <mark>TensorFlow</mark> libraries and understand their workflows. 
+  To further my skills, I'm currently diving into AWS and its functionalities. My ultimate goal is to become a professional in the field of AI and machine learning, making a real impact with these powerful technologies.
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -109,12 +111,22 @@ content:
   - title: Fun Facts More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in machine learning and AI, I also enjoy the following activities:
-      - [Dota 2](https://www.dota2.com/home)
-      - Football
-      - Table Tennis
+      By day, I delve into the fascinating world of machine learning and AI. But when I'm not training algorithms, my interests take a more playful turn:
 
-      I also enjoy reading books and watching movies and television series in my free time. I enjoy watching Dota 2 tournaments a lot. I also enjoy playing football and table tennis with my friends. My other interests include watching Chinese martial arts dramas. I can speak Burmese and English fluently and can speak Chinese for daily conversations.
+      Dota 2: Because who doesn't enjoy a good battle arena showdown? This game is pure strategy and action!
+      Football (Soccer for some): I love the beautiful game! Kicking a ball around with friends or watching epic matches is always a win.
+      Table Tennis: Fast-paced reflexes and friendly competition? Sign me up!
+      When I'm chilling, you'll likely find me:
+      
+      Curled up with a good book: Getting lost in a captivating story is pure bliss.
+      Binging movies and TV shows: From action-packed flicks to binge-worthy series, there's something for every mood.
+      Tuning into Dota 2 tournaments: Watching the pros battle it out is both inspiring and entertaining.
+      
+      Here's a bonus for the culture buffs:
+      Chinese martial arts dramas: The fight choreography and captivating stories are simply phenomenal.
+      Oh, and the music!  Can't forget the music.    I love listening to all kinds of tunes, but Chinese music holds a special place in my heart.
+      
+      Bonus language skills:  I'm fluent in Burmese and English, and I can hold my own in everyday Chinese conversations.
 
 # Footer
 footer_show_references: true
