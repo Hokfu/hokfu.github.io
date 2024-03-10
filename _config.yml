@@ -21,7 +21,7 @@ linkedin_username: khant-htoo-naing-31799a234
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Khant Htoo Naing. I am from Myanmar. I am currently studying IT in Thailand.<br>
   I am an enthusiastic individual in machine learning and AI. I enjoy exploring and inspecting through data and find solutions in it. 
