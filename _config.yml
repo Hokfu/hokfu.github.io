@@ -1,123 +1,195 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+repository: Hokfu/hokfu.github.io
+favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
-# email_title: Email (Email title override)
-phone: Your phone number (optional)
-# phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
-# website_title: Web (Website title override)
+name: Khant Htoo Naing
+title: Machine Learning & AI
+email: khanthtoonaing2000@gmail.com
+website: https://hokfu.github.io
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: never
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
-
-# Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+twitter_username: KhantHtooNaing2
+github_username:  Hokfu
+linkedin_username: khant-htoo-naing-31799a234
 
 # About Section
-# about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+# about_title: About Me
+about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
-
+  Hi, my name is Khant Htoo Naing. You can call me "Hokfu" or "Turtle". I am from Myanmar. I am currently studying IT in Thailand.<br>
+  I'm passionate about using data to solve problems, and that's what drew me to machine learning and AI.
+  I enjoy exploring and inspecting through data and find solutions in it. <br>
+  I am particularly interested in <mark>Machine Learning</mark> and <mark>Deep Learning</mark> with <mark>Python</mark>. 
+  I am also interested in <mark>Computer Vision</mark> and <mark>Natural Language Processing</mark>. I am familiar and have done projects with <mark>PyTorch</mark> and <mark>TensorFlow</mark> libraries and understand their workflows.<br>
+  To further my skills, I'm currently diving into <mark>MLOps</mark>, building pipeliens, and monitoring models.<br>
+  I am also interested in <mark>Generative AI</mark> and <mark>LLM Fine-tuning</mark> and currently working on studies that involve fine-tuning LLMs and developing applications with different Generative AI models.
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
+      - layout: top-middle
+        title: Classification of energy load type
+        link: github.com/Hokfu/Flower-image-classification
+        # link_text: Project Website
         additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          - title:  Flower Image Classification
             icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+            url: github.com/Hokfu/Flower-image-classification
         quote: >
-          Short overview of the project (optional)
+          This project is  the start of my deep learning journey.
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          I worked on this project as a capstone project while learning machine learning course. This project includes EDA, model training, evaluation and containarization of the model. I used Tensorflow and Keras to build a model that can classify between daisy and dandelion. I used a pre-trained model VGG16 and fine-tuned it to get the best results. The model is then deployed using Flask and containerzied with Docker.
+      - layout: top-middle
+        title: Classification of energy consumption in steel company
+        link: github.com/Hokfu/Energy-Consumption-Model
+        # link_text: Project Website
+        additional_links:
+          - title:  Energy Load Type Classification
+            icon: fab fa-github
+            url: github.com/Hokfu/Energy-Consumption-Model
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          This is my capstone project for my machine learning course.
+        description: | # this will include new lines to allow paragraphs
+          This project is about classification of load type in a steel factory.
+          In this project, by checking the energy consumption, power consumption, weekday or weekend, the model is trained to predict the energy load type. The trained model is then deployed using Flask and containerized with Docker.
+  - title: Skills
+    layout: list
+    content:
+      - layout: left
+        title: Python
+        caption: Intermediate
+        description: |
+          Python is my go-to language for machine learning and AI projects. I am familiar with libraries like NumPy, Pandas, Matplotlib, and Seaborn for Data Science and Sci-kit learn, TensorFlow, and PyTorch for machine learning and deep learning.
+      - layout: left
+        title: Machine Learning
+        caption: Intermediate
+        description: |
+          Datatalksclub's Machine Learning Zoomcamp introduced me about machine learning in December 2023. 
+      - layout: left
+        title: Deep Learning
+        caption: Intermediate
+        description: |
+          Datatalksclub's Machine Learning Zoomcamp introduced me about machine learning in December 2023 mainly image classifcation.
+      - layout: left
+        title: Generative AI and LLM Fine-tuning
+        caption: Beginner
+        description: |
+          I am currently working on studies that invole fine-tuning LLMs and developing applications with different Generative AI models.
   - title: Experience
     layout: list
     content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+      - layout: left
+        title: Geni Asia
+        link: https://geni.asia/
+        # link_text: boringcompany.com
+        sub_title: Research Internship
+        caption: December 2023 - April 2024
         quote: >
-          Short description of the company (optional)
+         Researching existing LLMs and finding the most suitable model for Burmese language
         description: | # this will include new lines to allow paragraphs
-          Description of role
-  - title: Education
+            There are many different language models that are available for English language. However, there are not many researches on Burmese language. My team is currently researching on existing language models and finding the most suitable model for Burmese language. We are also working on fine-tuning the model to get the best results.
+      - layout: left
+        title: Rangsit University Internation College
+        link: https://www.rsuip.org/
+        # link_text: boringcompany.com
+        sub_title: Teaching Assistant/Web Developer
+        caption: December 2023 - April 2024
+        quote: >
+         Teaching assistant and web developer in Rangsit University International College
+        description: | # this will include new lines to allow paragraphs
+            I worked part time as a teaching assistant and web developer in Rangsit University International College for four months. This job involves helping students in developing simple web applications and my team also have to develop web apps for the college staffs and students.
+      - layout: left
+        title: NUOS Magicko
+        link: 
+        # link_text: boringcompany.com
+        sub_title: AI developer Internship
+        caption: June 2024 - Present
+        quote: >
+          Developing LLM applications with Generative AI
+        description: | # this will include new lines to allow paragraphs
+            I develop different LLM applications with Generative AI. I also have to research different models and keep up with latest generative AI technologies, and find the most suitable model for different projects at the company. 
+          
+  - title: Current Studies
     layout: list
     content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
+      - layout: top-middle
+        title: Machine Learning Zoomcamp
+        link: https://github.com/Hokfu/Machine_Learning_Camp
+        # link_text: boringcompany.com
+        sub_title: Machine Learning Study From DataTalksClub
         quote: >
-          Short institution or course description (optional)
+         Learning about machine learning and deep learning from fundamentals to model deploments 
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
+            This repo is about my machine learning study journey from [DataTalksClub](https://datatalks.club/). Check the repo for more details. I learned about fundamentals of machine learning, deep learning, and how to deploy machine learning models using [Flask](https://flask.palletsprojects.com/en/2.0.x/) and [Docker](https://www.docker.com/).
+      - layout: top-middle
+        title: MLOps Zoomcamp
+        link: 
+        # link_text: boringcompany.com
+        sub_title: MLOps Study From DataTalksClub
+        quote: >
+          Learning about MLOps and how to deploy machine learning models, building pipelines, and monitoring models.
+        description: | # this will include new lines to allow paragraphs
+            This repo is about my MLOps study journey from [DataTalksClub](https://datatalks.club/). Check the repo for more details. MLOps zoomcamp is about how to deploy machine learning models, building pipelines, and monitoring models using [MLFlow](https://mlflow.org/) and [MageAI](https://www.mage.ai/)
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Yangon Technological University
+        caption: 2016 - 2020
+        sub_title: Bachelor of Engineering (Computer Engineering and Information Technology)
+        quote: >
+          Yangon Technological University is one of the top universities in Myanmar.
+        description: | # this will include new lines to allow paragraphs
+          During my time at Yangon, I spent most of the time studying programming and computer science. However, due to the country's situation, I left the university in my fourth year and continued my studies in Thailand.
+      - layout: left
+        title: Rangsit University
+        caption: 2022 - Current
+        sub_title: Bachelor of Science (Information and Communication Technology)
+        quote: >
+          Rangsit University is a private university in Thailand.
+        description: | # this will include new lines to allow paragraphs
+          I continued studying in Rangsit University International College, Thailand. Here, I met amazing professors and friends who helped me to improve my skills and knowledge in IT.
+
+  - title: Fun Facts More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      By day, I delve into the fascinating world of machine learning and AI. But when I'm not training algorithms, my interests take a more playful turn:
+      <ul>
+      <li>Dota 2: Dota 2 is my favorite game !!! </li>
+      <li>Football (Soccer for some): Hey, we can discuss about football. Btw, I am Manchester United fan and I also play football with friends.</li>
+      <li>Table Tennis: Table tennis is another sports I love. </li>
+      <li>Mathematics: I am a weird person :))</li>
+      </ul>
+      <br>
+      When I'm chilling, you'll likely find me:
+      <ul>
+      <li>Curled up with a good book: Getting lost in a captivating story is pure bliss.</li>
+      <li>Binging movies and TV shows: From action-packed flicks to binge-worthy series, there's something for every mood</li>
+      <li>Tuning into Dota 2 tournaments: Watching the pros battle it out is both inspiring and entertaining</li>
+      </ul>
+      <br>
+      Here's a bonus for the culture buffs:
+      <ul>
+      <li>Chinese martial arts dramas: The fight choreography and captivating stories are simply phenomenal.</li>
+      </ul>
+      <br>
+      Oh, and the music! Can't forget the music. I love listening to all kinds of tunes, but Chinese music holds a special place in my heart.
+      <br>
+      Bonus language skills:  I'm fluent in Burmese and English, and I can hold my own in everyday Chinese conversations.
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
-
-# Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
 
 sass:
   sass_dir: _sass
