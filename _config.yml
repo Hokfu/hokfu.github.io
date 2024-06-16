@@ -21,7 +21,7 @@ linkedin_username: khant-htoo-naing-31799a234
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpeg
+about_profile_image: images/profile_2.jpeg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Khant Htoo Naing. You can call me "Hokfu" or "Turtle". I am from Myanmar. I am currently studying IT in Thailand.<br>
   I'm passionate about using data to solve problems, and that's what drew me to machine learning and AI.
@@ -74,17 +74,17 @@ content:
         title: Machine Learning
         caption: Intermediate
         description: |
-          Datatalksclub's Machine Learning Zoomcamp introduced me about machine learning in December 2023. 
+          Datatalksclub's Machine Learning Zoomcamp introduced me about machine learning in December 2023. I learned fundamentals of machine learning.
       - layout: left
         title: Deep Learning
         caption: Intermediate
         description: |
-          Datatalksclub's Machine Learning Zoomcamp introduced me about machine learning in December 2023 mainly image classifcation.
+          Datatalksclub's Machine Learning Zoomcamp introduced me about machine learning in December 2023 mainly image classifcation with convolutional neural networks.
       - layout: left
         title: Generative AI and LLM Fine-tuning
         caption: Beginner
         description: |
-          I am currently working on studies that invole fine-tuning LLMs and developing applications with different Generative AI models.
+          I am currently working on studies that invole fine-tuning LLMs and developing applications with different Generative AI models using techniques like prompt engineering. I am familiar with various generative AI applications involves RAG and other applications and develop them with Langchain, Langgraph and other frameworks. 
   - title: Experience
     layout: list
     content:
@@ -119,7 +119,7 @@ content:
         description: | # this will include new lines to allow paragraphs
             I develop different LLM applications with Generative AI. I also have to research different models and keep up with latest generative AI technologies, and find the most suitable model for different projects at the company. 
           
-  - title: Current Studies
+  - title: My Studies
     layout: list
     content:
       - layout: top-middle
@@ -133,7 +133,7 @@ content:
             This repo is about my machine learning study journey from [DataTalksClub](https://datatalks.club/). Check the repo for more details. I learned about fundamentals of machine learning, deep learning, and how to deploy machine learning models using [Flask](https://flask.palletsprojects.com/en/2.0.x/) and [Docker](https://www.docker.com/).
       - layout: top-middle
         title: MLOps Zoomcamp
-        link: 
+        link: https://github.com/Hokfu/MLOps_Zoomcamp_Study
         # link_text: boringcompany.com
         sub_title: MLOps Study From DataTalksClub
         quote: >
