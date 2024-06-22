@@ -12,7 +12,7 @@ email: khanthtoonaing2000@gmail.com
 website: https://hokfu.github.io
 
 # Dark Mode (true/false/never)
-darkmode: never
+darkmode: true
 
 # Social links
 twitter_username: KhantHtooNaing2
@@ -31,37 +31,6 @@ about_content: | # this will include new lines to allow paragraphs
   To further my skills, I'm currently diving into <mark>MLOps</mark>, building pipeliens, and monitoring models.<br>
   I am also interested in <mark>Generative AI</mark> and <mark>LLM Fine-tuning</mark> and currently working on studies that involve fine-tuning LLMs and developing applications with different Generative AI models.
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Classification of energy load type
-        link: github.com/Hokfu/Flower-image-classification
-        # link_text: Project Website
-        additional_links:
-          - title:  Flower Image Classification
-            icon: fab fa-github
-            url: github.com/Hokfu/Flower-image-classification
-        quote: >
-          This project is  the start of my deep learning journey.
-        description: | # this will include new lines to allow paragraphs
-          I worked on this project as a capstone project while learning machine learning course. This project includes EDA, model training, evaluation and containarization of the model. I used Tensorflow and Keras to build a model that can classify between daisy and dandelion. I used a pre-trained model VGG16 and fine-tuned it to get the best results. The model is then deployed using Flask and containerzied with Docker.
-      - layout: top-middle
-        title: Classification of energy consumption in steel company
-        link: github.com/Hokfu/Energy-Consumption-Model
-        # link_text: Project Website
-        additional_links:
-          - title:  Energy Load Type Classification
-            icon: fab fa-github
-            url: github.com/Hokfu/Energy-Consumption-Model
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is my capstone project for my machine learning course.
-        description: | # this will include new lines to allow paragraphs
-          This project is about classification of load type in a steel factory.
-          In this project, by checking the energy consumption, power consumption, weekday or weekend, the model is trained to predict the energy load type. The trained model is then deployed using Flask and containerized with Docker.
   - title: Skills
     layout: list
     content:
@@ -81,65 +50,85 @@ content:
         description: |
           Datatalksclub's Machine Learning Zoomcamp introduced me about machine learning in December 2023 mainly image classifcation with convolutional neural networks.
       - layout: left
-        title: Generative AI and LLM Fine-tuning
-        caption: Beginner
+        title: Generative AI and LLM 
+        caption: Intermediate
         description: |
-          I am currently working on studies that invole fine-tuning LLMs and developing applications with different Generative AI models using techniques like prompt engineering. I am familiar with various generative AI applications involves RAG and other applications and develop them with Langchain, Langgraph and other frameworks. 
+          I am currently working on studies that involves developing applications with LLM. I am also researching different Generative AI models and LLMs. I am also learning about agentic frameworks and architectures with LangChain and LangGraph.
   - title: Experience
     layout: list
     content:
       - layout: left
-        title: Geni Asia
-        link: https://geni.asia/
-        # link_text: boringcompany.com
-        sub_title: Research Internship
-        caption: December 2023 - April 2024
-        quote: >
-         Researching existing LLMs and finding the most suitable model for Burmese language
-        description: | # this will include new lines to allow paragraphs
-            There are many different language models that are available for English language. However, there are not many researches on Burmese language. My team is currently researching on existing language models and finding the most suitable model for Burmese language. We are also working on fine-tuning the model to get the best results.
-      - layout: left
         title: Rangsit University Internation College
-        link: https://www.rsuip.org/
-        # link_text: boringcompany.com
+        link: www.rsuip.org
         sub_title: Teaching Assistant/Web Developer
         caption: December 2023 - April 2024
-        quote: >
-         Teaching assistant and web developer in Rangsit University International College
-        description: | # this will include new lines to allow paragraphs
+        # quote: >
+        #  Teaching assistant and web developer in Rangsit University International College
+        description: | 
             I worked part time as a teaching assistant and web developer in Rangsit University International College for four months. This job involves helping students in developing simple web applications and my team also have to develop web apps for the college staffs and students.
       - layout: left
         title: NUOS Magicko
         link: 
-        # link_text: boringcompany.com
         sub_title: AI developer Internship
         caption: June 2024 - Present
-        quote: >
-          Developing LLM applications with Generative AI
+        # quote: >
+        #   Developing LLM applications and agentic architectures with Generative AI, researching different models and keeping up with latest generative AI technologies.
         description: | # this will include new lines to allow paragraphs
             I develop different LLM applications with Generative AI. I also have to research different models and keep up with latest generative AI technologies, and find the most suitable model for different projects at the company. 
-          
+  - title: Personal Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Classification of energy load type
+        link: github.com/Hokfu/Flower-image-classification
+        additional_links:
+          - title:  Flower Image Classification
+            icon: fab fa-github
+            url: github.com/Hokfu/Flower-image-classification
+        quote: >
+          This project is  the start of my deep learning journey.
+        description: | 
+          I worked on this project as a capstone project while learning machine learning course. This project includes EDA, model training, evaluation and containarization of the model. I used Tensorflow and Keras to build a model that can classify between daisy and dandelion. I used a pre-trained model VGG16 and fine-tuned it to get the best results. The model is then deployed using Flask and containerzied with Docker.
+      - layout: top-middle
+        title: Classification of energy consumption in steel company
+        link: github.com/Hokfu/Energy-Consumption-Model
+        # link_text: Project Website
+        additional_links:
+          - title:  Energy Load Type Classification
+            icon: fab fa-github
+            url: github.com/Hokfu/Energy-Consumption-Model
+        quote: >
+          This is my capstone project for my machine learning course.
+        description: | 
+          This project is about classification of load type in a steel factory.
+          In this project, by checking the energy consumption, power consumption, weekday or weekend, the model is trained to predict the energy load type. The trained model is then deployed using Flask and containerized with Docker.
   - title: My Studies
     layout: list
     content:
       - layout: top-middle
         title: Machine Learning Zoomcamp
-        link: https://github.com/Hokfu/Machine_Learning_Camp
-        # link_text: boringcompany.com
+        link: github.com/Hokfu/Machine_Learning_Camp
         sub_title: Machine Learning Study From DataTalksClub
         quote: >
          Learning about machine learning and deep learning from fundamentals to model deploments 
-        description: | # this will include new lines to allow paragraphs
-            This repo is about my machine learning study journey from [DataTalksClub](https://datatalks.club/). Check the repo for more details. I learned about fundamentals of machine learning, deep learning, and how to deploy machine learning models using [Flask](https://flask.palletsprojects.com/en/2.0.x/) and [Docker](https://www.docker.com/).
+        description: | 
+            This repo is about my machine learning study journey from [DataTalksClub](https://datatalks.club/). Check the repo for more details. I learned about fundamentals of machine learning, deep learning, and how to deploy machine learning models using [Flask](https://flask.palletsprojects.com/en/2.0.x/) and [Docker](https://www.docker.com/). Here is the original course repo [Machine Learning Zoomcamp](https://github.com/DataTalksClub/machine-learning-zoomcamp).
       - layout: top-middle
         title: MLOps Zoomcamp
-        link: https://github.com/Hokfu/MLOps_Zoomcamp_Study
-        # link_text: boringcompany.com
+        link: github.com/Hokfu/MLOps_Zoomcamp_Study
         sub_title: MLOps Study From DataTalksClub
         quote: >
           Learning about MLOps and how to deploy machine learning models, building pipelines, and monitoring models.
         description: | # this will include new lines to allow paragraphs
-            This repo is about my MLOps study journey from [DataTalksClub](https://datatalks.club/). Check the repo for more details. MLOps zoomcamp is about how to deploy machine learning models, building pipelines, and monitoring models using [MLFlow](https://mlflow.org/) and [MageAI](https://www.mage.ai/)
+            This repo is about my MLOps study journey from [DataTalksClub](https://datatalks.club/). Check the repo for more details. MLOps zoomcamp is about how to deploy machine learning models, building pipelines, and monitoring models using [MLFlow](https://mlflow.org/) and [MageAI](https://www.mage.ai/). Here is the original course repo [MLOps Zoomcamp](https://github.com/DataTalksClub/mlops-zoomcamp).
+      - layout: top-middle
+        title: LLM Zoomcamp
+        link: github.com/Hokfu/LLM-Zoomcamp-Study
+        sub_title: LLM Study From DataTalksClub
+        quote: >
+          Learning about MLOps and how to deploy machine learning models, building pipelines, and monitoring models.
+        description: | # this will include new lines to allow paragraphs
+            This repo is LLM Zoomcamp from [DataTalksClub](https://datatalks.club/) again. DataTalksClub hosts various free zoomcamps for machine learning and AI enthusiasts. I am studying about LLM applications from this zoomcamp and other places too. Here is the original course repo [LLM Zoomcamp](https://github.com/DataTalksClub/llm-zoomcamp).
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -164,29 +153,21 @@ content:
   - title: Fun Facts More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      By day, I delve into the fascinating world of machine learning and AI. But when I'm not training algorithms, my interests take a more playful turn:
-      <ul>
-      <li>Dota 2: Dota 2 is my favorite game !!! </li>
-      <li>Football (Soccer for some): Hey, we can discuss about football. Btw, I am Manchester United fan and I also play football with friends.</li>
-      <li>Table Tennis: Table tennis is another sports I love. </li>
-      <li>Mathematics: I am a weird person :))</li>
-      </ul>
-      <br>
-      When I'm chilling, you'll likely find me:
-      <ul>
-      <li>Curled up with a good book: Getting lost in a captivating story is pure bliss.</li>
-      <li>Binging movies and TV shows: From action-packed flicks to binge-worthy series, there's something for every mood</li>
-      <li>Tuning into Dota 2 tournaments: Watching the pros battle it out is both inspiring and entertaining</li>
-      </ul>
-      <br>
-      Here's a bonus for the culture buffs:
-      <ul>
-      <li>Chinese martial arts dramas: The fight choreography and captivating stories are simply phenomenal.</li>
-      </ul>
-      <br>
-      Oh, and the music! Can't forget the music. I love listening to all kinds of tunes, but Chinese music holds a special place in my heart.
-      <br>
-      Bonus language skills:  I'm fluent in Burmese and English, and I can hold my own in everyday Chinese conversations.
+      By day, I delve into the fascinating world of machine learning and AI. But when I'm not working, my interests take a more playful turn:<br><br>
+      - Dota 2: Dota 2 is my favorite game !!! 
+      - Football (Soccer for some): Hey, we can discuss about football. Btw, I am Manchester United fan and I also play football with friends.
+      - Table Tennis: Table tennis is another sports I love. 
+      - Mathematics: I am a weird person :))
+      <br><br>
+      When I'm chilling, you'll likely find me:<br><br>
+      - Curled up with a good book
+      - Binging movies and TV shows
+      - Tuning into Dota 2 tournaments
+      <br><br>
+      Language skills:<br><br>
+      - Burmese: Native
+      - English: Fluent
+      - Chinese: Intermediate
 
 # Footer
 footer_show_references: true
