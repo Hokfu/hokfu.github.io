@@ -29,7 +29,7 @@ about_content: | # this will include new lines to allow paragraphs
   I am particularly interested in <mark>Machine Learning</mark> and <mark>Deep Learning</mark> with <mark>Python</mark>. 
   I am also interested in <mark>Computer Vision</mark> and <mark>Natural Language Processing</mark>. I am familiar and have done projects with <mark>PyTorch</mark> and <mark>TensorFlow</mark> libraries and understand their workflows.<br>
   To further my skills, I'm currently diving into <mark>MLOps</mark>, building pipeliens, and monitoring models.<br>
-  I am also interested in <mark>Generative AI</mark> and <mark>LLM Fine-tuning</mark> and currently working on studies that involve fine-tuning LLMs and developing applications with different Generative AI models.
+  I am also interested in <mark>Generative AI</mark> and <mark>LLM Fine-tuning</mark> and currently working on developing applications with LLM and researching different Generative AI models and LLMs. I am also learning about agentic frameworks and architectures with LangChain and LangGraph.
 content:
   - title: Skills
     layout: list
