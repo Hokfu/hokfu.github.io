@@ -102,6 +102,17 @@ content:
         description: | 
           This project is about classification of load type in a steel factory.
           In this project, by checking the energy consumption, power consumption, weekday or weekend, the model is trained to predict the energy load type. The trained model is then deployed using Flask and containerized with Docker.
+      - layout: top-middle
+        title: Chat with AI about turtles
+        link: aboutturtles-dzxirxubkka723wpafcfhk.streamlit.app/
+        additional_links:
+          - title:  Chat with Llama3 8B instruct and ask about turtles
+            icon: fab fa-github
+            url: github.com/Hokfu/about_turtles
+        quote: >
+          This project is a fun project I made to chat with AI about turtles.
+        description: | 
+          Chat with Llama3 8B instruct and ask about turtles. Streamlit is used to build this web applcation, and the Llama3 model is used from Huggingface. LangChain is used to build RAG architecture. 
   - title: My Studies
     layout: list
     content:
