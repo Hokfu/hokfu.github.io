@@ -78,6 +78,17 @@ content:
   - title: Personal Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: top-middle 
+        title: Campaign Success Prediction MLOps Project  
+        link: github.com/Hokfu/campaign_success_prediction_with_mlops
+        additional_links:
+          - title:  Campagiagn Success Prediction MLOps Project
+            icon: fab fa-github
+            url: github.com/Hokfu/campaign_success_prediction_with_mlops
+        quote: >
+          End to end MLOps project for predicting campaign success.
+        description: | 
+          An end to end MLOps project for predicting campaign success. The project includes data collection, data preprocessing, model training, model evaluation, and model deployment, monitoring. 
       - layout: top-middle
         title: Classification of energy load type
         link: github.com/Hokfu/Flower-image-classification
