@@ -16,44 +16,39 @@ darkmode: true
 
 # Social links
 twitter_username: KhantHtooNaing2
-github_username:  Hokfu
+github_username: Hokfu
 linkedin_username: khant-htoo-naing-31799a234
 
 # About Section
 # about_title: About Me
 about_profile_image: images/profile_2.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Khant Htoo Naing. You can call me "Hokfu" or "Turtle". I am from Myanmar. I am currently studying IT in Thailand.<br>
-  I'm passionate about using data to solve problems, and that's what drew me to machine learning and AI.
-  I enjoy exploring and inspecting through data and find solutions in it. <br>
-  I am particularly interested in <mark>Machine Learning</mark> and <mark>Deep Learning</mark> with <mark>Python</mark>. 
-  I am also interested in <mark>Computer Vision</mark> and <mark>Natural Language Processing</mark>. I am familiar and have done projects with <mark>PyTorch</mark> and <mark>TensorFlow</mark> libraries and understand their workflows.<br>
-  To further my skills, I'm currently diving into <mark>MLOps</mark>, building pipeliens, and monitoring models.<br>
-  I am also interested in <mark>Generative AI</mark> and <mark>LLM Fine-tuning</mark> and currently working on developing applications with LLM and researching different Generative AI models and LLMs. I am also learning about agentic frameworks and architectures with LangChain and LangGraph.
+  Hi, my name is Khant Htoo Naing. You can call me "Hokfu" or "Turtle". I am from Myanmar.<br><br>
+  I am currently working as a Agentic AI Developer based in Thailand.<br><br>
+  My other interests are <mark>Machine Learning</mark>, <mark>Deep Learning</mark>, <mark>MLOps</mark> and <mark>LLMOps</mark>.<br><br>
+  I can program in <mark>Python</mark> and <mark>GoLang</mark>.
+
 content:
-  - title: Skills
-    layout: list
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
     content:
-      - layout: left
-        title: Python
-        caption: Intermediate
-        description: |
-          Python is my go-to language for machine learning and AI projects. I am familiar with libraries like NumPy, Pandas, Matplotlib, and Seaborn for Data Science and Sci-kit learn, TensorFlow, and PyTorch for machine learning and deep learning.
-      - layout: left
-        title: Machine Learning
-        caption: Intermediate
-        description: |
-          Datatalksclub's Machine Learning Zoomcamp introduced me about machine learning in December 2023. I learned fundamentals of machine learning.
-      - layout: left
-        title: Deep Learning
-        caption: Intermediate
-        description: |
-          Datatalksclub's Machine Learning Zoomcamp introduced me about machine learning in December 2023 mainly image classifcation with convolutional neural networks.
-      - layout: left
-        title: Generative AI and LLM 
-        caption: Intermediate
-        description: |
-          I am currently working on studies that involves developing applications with LLM. I am also researching different Generative AI models and LLMs. I am also learning about agentic frameworks and architectures with LangChain and LangGraph.
+      - layout: top-middle
+        title: Yangon Technological University
+        caption: 2016 - 2020 ( 4th year )
+        sub_title: Bachelor of Engineering (Computer Engineering and Information Technology)
+      - layout: top-middle
+        title: Rangsit University, Rangsit International College, Thailand
+        caption: 2022 - 2025 ( Graduated )
+        sub_title: Bachelor of Science (Information and Communication Technology)
+  - title: Skills
+    layout: text
+    content: <ul>
+      <li>Python</li>
+      <li>GoLang</li>
+      <li>Agentic AI</li>
+      <li>MLOps</li>
+      <li>Machine Learning</li>
+      </ul>
   - title: Experience
     layout: list
     content:
@@ -62,134 +57,69 @@ content:
         link: www.rsuip.org
         sub_title: Teaching Assistant/Web Developer
         caption: December 2023 - April 2024
-        # quote: >
-        #  Teaching assistant and web developer in Rangsit University International College
-        description: | 
-            I worked part time as a teaching assistant and web developer in Rangsit University International College for four months. This job involves helping students in developing simple web applications and my team also have to develop web apps for the college staffs and students.
+        description: |
+          I worked part time as a teaching assistant and web developer in Rangsit University International College for four months. This job involves helping students in developing simple web applications and my team also have to develop web apps for the college staffs and students.
       - layout: left
-        title: NUOS Magicko
-        link: 
-        sub_title: AI developer Internship
+        title: General Magick Industries
+        link:
+        sub_title: Agentic AI Developer
         caption: June 2024 - Present
-        # quote: >
-        #   Developing LLM applications and agentic architectures with Generative AI, researching different models and keeping up with latest generative AI technologies.
         description: | # this will include new lines to allow paragraphs
-            I develop different LLM applications with Generative AI. I also have to research different models and keep up with latest generative AI technologies, and find the most suitable model for different projects at the company. 
-  - title: Personal Projects # Title for the section
-    layout: list # Type of content section (list/text)
+          I develop different LLM applications with Generative AI. I also have to research different models and keep up with latest generative AI technologies, and find the most suitable model for different projects at the company.
+  - title: Learnings
+    layout: list
     content:
-      - layout: top-middle 
-        title: Campaign Success Prediction MLOps Project  
+      - layout: top-middle
+        title: Machine Learning Zoomcamp
+        link: github.com/Hokfu/Machine_Learning_Camp
+        caption: Machine Learning Zoomcamp from <a href="https://datatalks.club/">DataTalksClub</a>
+      - layout: top-middle
+        title: MLOps Zoomcamp
+        link: github.com/Hokfu/MLOps_Zoomcamp_Study
+        caption: MLOps Zoomcamp from <a href="https://datatalks.club/">DataTalksClub</a>
+      - layout: top-middle
+        title: LLM Zoomcamp
+        link: github.com/Hokfu/LLM-Zoomcamp-Study
+        caption: LLM Zoomcamp from <a href="https://datatalks.club/">DataTalksClub</a>
+  - title: Personal Projects # Title for the section
+    layout: list
+    content:
+      - layout: top-middle
+        title: Campaign Success Prediction MLOps Project
         link: github.com/Hokfu/campaign_success_prediction_with_mlops
         additional_links:
-          - title:  Campagiagn Success Prediction MLOps Project
+          - title: Campagiagn Success Prediction MLOps Project
             icon: fab fa-github
             url: github.com/Hokfu/campaign_success_prediction_with_mlops
-        quote: >
-          End to end MLOps project for predicting campaign success.
-        description: | 
-          An end to end MLOps project for predicting campaign success. The project includes data collection, data preprocessing, model training, model evaluation, and model deployment, monitoring. 
+        description: |
+          An end to end MLOps project for predicting campaign success. The project includes data collection, data preprocessing, model training, model evaluation, and model deployment, monitoring.
       - layout: top-middle
-        title: Classification of energy load type
+        title: Flower Image Classification
         link: github.com/Hokfu/Flower-image-classification
         additional_links:
-          - title:  Flower Image Classification
+          - title: Flower Image Classification
             icon: fab fa-github
             url: github.com/Hokfu/Flower-image-classification
-        quote: >
-          This project is  the start of my deep learning journey.
-        description: | 
+        description: |
           I worked on this project as a capstone project while learning machine learning course. This project includes EDA, model training, evaluation and containarization of the model. I used Tensorflow and Keras to build a model that can classify between daisy and dandelion. I used a pre-trained model VGG16 and fine-tuned it to get the best results. The model is then deployed using Flask and containerzied with Docker.
       - layout: top-middle
         title: Classification of energy consumption in steel company
         link: github.com/Hokfu/Energy-Consumption-Model
         # link_text: Project Website
         additional_links:
-          - title:  Energy Load Type Classification
+          - title: Energy Load Type Classification
             icon: fab fa-github
             url: github.com/Hokfu/Energy-Consumption-Model
-        quote: >
-          This is my capstone project for my machine learning course.
-        description: | 
+        description: |
           This project is about classification of load type in a steel factory.
           In this project, by checking the energy consumption, power consumption, weekday or weekend, the model is trained to predict the energy load type. The trained model is then deployed using Flask and containerized with Docker.
-      - layout: top-middle
-        title: Chat with AI about turtles
-        link: aboutturtles-dzxirxubkka723wpafcfhk.streamlit.app/
-        additional_links:
-          - title:  Chat with Llama3 8B instruct and ask about turtles
-            icon: fab fa-github
-            url: github.com/Hokfu/about_turtles
-        quote: >
-          This project is a fun project I made to chat with AI about turtles.
-        description: | 
-          Chat with Llama3 8B instruct and ask about turtles. Streamlit is used to build this web applcation, and the Llama3 model is used from Huggingface. LangChain is used to build RAG architecture. 
-  - title: My Studies
-    layout: list
-    content:
-      - layout: top-middle
-        title: Machine Learning Zoomcamp
-        link: github.com/Hokfu/Machine_Learning_Camp
-        sub_title: Machine Learning Study From DataTalksClub
-        quote: >
-         Learning about machine learning and deep learning from fundamentals to model deploments 
-        description: | 
-            This repo is about my machine learning study journey from [DataTalksClub](https://datatalks.club/). Check the repo for more details. I learned about fundamentals of machine learning, deep learning, and how to deploy machine learning models using [Flask](https://flask.palletsprojects.com/en/2.0.x/) and [Docker](https://www.docker.com/). Here is the original course repo [Machine Learning Zoomcamp](https://github.com/DataTalksClub/machine-learning-zoomcamp).
-      - layout: top-middle
-        title: MLOps Zoomcamp
-        link: github.com/Hokfu/MLOps_Zoomcamp_Study
-        sub_title: MLOps Study From DataTalksClub
-        quote: >
-          Learning about MLOps and how to deploy machine learning models, building pipelines, and monitoring models.
-        description: | # this will include new lines to allow paragraphs
-            This repo is about my MLOps study journey from [DataTalksClub](https://datatalks.club/). Check the repo for more details. MLOps zoomcamp is about how to deploy machine learning models, building pipelines, and monitoring models using [MLFlow](https://mlflow.org/) and [MageAI](https://www.mage.ai/). Here is the original course repo [MLOps Zoomcamp](https://github.com/DataTalksClub/mlops-zoomcamp).
-      - layout: top-middle
-        title: LLM Zoomcamp
-        link: github.com/Hokfu/LLM-Zoomcamp-Study
-        sub_title: LLM Study From DataTalksClub
-        quote: >
-          Learning about MLOps and how to deploy machine learning models, building pipelines, and monitoring models.
-        description: | # this will include new lines to allow paragraphs
-            This repo is LLM Zoomcamp from [DataTalksClub](https://datatalks.club/) again. DataTalksClub hosts various free zoomcamps for machine learning and AI enthusiasts. I am studying about LLM applications from this zoomcamp and other places too. Here is the original course repo [LLM Zoomcamp](https://github.com/DataTalksClub/llm-zoomcamp).
-
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Yangon Technological University
-        caption: 2016 - 2020
-        sub_title: Bachelor of Engineering (Computer Engineering and Information Technology)
-        quote: >
-          Yangon Technological University is one of the top universities in Myanmar.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Yangon, I spent most of the time studying programming and computer science. However, due to the country's situation, I left the university in my fourth year and continued my studies in Thailand.
-      - layout: left
-        title: Rangsit University
-        caption: 2022 - Current
-        sub_title: Bachelor of Science (Information and Communication Technology)
-        quote: >
-          Rangsit University is a private university in Thailand.
-        description: | # this will include new lines to allow paragraphs
-          I continued studying in Rangsit University International College, Thailand. Here, I met amazing professors and friends who helped me to improve my skills and knowledge in IT.
-
-  - title: Fun Facts More About Me
+  - title: Languages
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      By day, I delve into the fascinating world of machine learning and AI. But when I'm not working, my interests take a more playful turn:<br><br>
-      - Dota 2: Dota 2 is my favorite game !!! 
-      - Football (Soccer for some): Hey, we can discuss about football. Btw, I am Manchester United fan and I also play football with friends.
-      - Table Tennis: Table tennis is another sports I love. 
-      - Mathematics: I am a weird person :))
-      <br><br>
-      When I'm chilling, you'll likely find me:<br><br>
-      - Curled up with a good book
-      - Binging movies and TV shows
-      - Tuning into Dota 2 tournaments
-      <br><br>
-      Language skills:<br><br>
-      - Burmese: Native
-      - English: Fluent
-      - Chinese: Intermediate
+    content: <ul>
+      <li>Burmese - Native</li>
+      <li>English - Fluent</li>
+      <li>Chinese - Intermediate</li>
+      </ul>
 
 # Footer
 footer_show_references: true
@@ -199,17 +129,18 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
 
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
+exclude:
+  [
+    "Gemfile",
+    "Gemfile.lock",
+    "node_modules",
+    "vendor/bundle/",
+    "vendor/cache/",
+    "vendor/gems/",
+    "vendor/ruby/",
+    "lib/",
+    "scripts/",
+    "docker-compose.yml",
   ]
