@@ -1,6 +1,33 @@
-*.gem
-.bundle
+# dependencies
+/node_modules
+
+# next.js
+/.next
+/out
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# env
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+
+# jekyll leftovers (legacy)
 .sass-cache
 _site
-*.code-workspace
-vendor
+
+# tooling / operational state
+.omc/
+.claude/
