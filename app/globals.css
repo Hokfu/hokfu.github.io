@@ -194,6 +194,8 @@ main {
   border-radius: var(--radius);
   padding: var(--space-md);
   background: rgba(255, 255, 255, 0.48);
+  display: flex;
+  flex-direction: column;
 }
 
 .card h3 {
@@ -223,6 +225,18 @@ main {
   padding: 0.3rem 0.62rem;
   font-size: 0.73rem;
   background: var(--accent-soft);
+}
+
+.card-link {
+  margin-top: auto;
+  padding-top: var(--space-md);
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--accent);
+}
+
+.card-link:hover {
+  text-decoration: underline;
 }
 
 .timeline {

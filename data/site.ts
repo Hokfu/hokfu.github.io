@@ -21,6 +21,7 @@ export type CaseStudy = {
   title: string;
   summary: string;
   stack: string[];
+  link?: string;
 };
 
 export type CertificateItem = {
@@ -49,34 +50,48 @@ export const portfolio = {
   ] satisfies SocialLink[],
   caseStudies: [
     {
-      title: "Autonomous Agentic Workflows",
+      title: "TechQA Agent — Agentic RAG",
       summary:
-        "Designed AI agents that execute multi-step tasks using tool invocation and reasoning loops beyond one-shot generation.",
-      stack: ["Agentic AI", "Python", "Tool Use", "Reasoning Systems"]
+        "Agentic RAG that answers IBM technical-support questions across 28k Technotes. When single-shot retrieval misses, the agent rewrites the query and searches again before answering — grounded in retrieved docs and measured against gold answers.",
+      stack: ["Agentic RAG", "Qdrant", "MiniLM", "LLM", "Python"],
+      link: "https://github.com/Hokfu/techqa-agentic-rag"
     },
     {
-      title: "Long-Term Memory for In-Context Learning",
+      title: "Campaign Success Prediction (MLOps)",
       summary:
-        "Implemented memory architecture enabling persistent state retrieval across extended sessions to improve continuity and context quality.",
-      stack: ["Memory Systems", "ICL", "RAG", "Python"]
+        "End-to-end MLOps pipeline predicting marketing-campaign success. A Random Forest classifier tuned and versioned in MLflow, wrapped with experiment tracking, orchestration, deployment, and monitoring for a reproducible, production-style workflow.",
+      stack: ["MLOps", "MLflow", "Random Forest", "Python", "Pipeline"],
+      link: "https://github.com/Hokfu/campaign_success_prediction_with_mlops"
     },
     {
-      title: "Scalable AI SaaS Microservices",
+      title: "Steel Industry Energy Classification",
       summary:
-        "Built high-performance backend services in Go and Python for AI workloads, emphasizing reliability, modular APIs, and maintainability.",
-      stack: ["Go", "Python", "Microservices", "API Design"]
+        "Classification model predicting energy-load type for a smart small-scale steel plant (UCI dataset), letting the plant anticipate high/medium/low consumption and cut costs. Covers EDA, model training and tuning, dependency management, and containerization.",
+      stack: ["Machine Learning", "Classification", "Python", "Docker"],
+      link: "https://github.com/Hokfu/Energy-Consumption-Model"
     }
   ] satisfies CaseStudy[],
   experience: [
     {
       company: "General Magick Industries",
-      role: "AI Developer",
+      role: "Software Engineer",
       location: "Thailand",
       period: "June 2023 - Present",
       highlights: [
         "Architected autonomous AI systems for complex reasoning and task execution.",
         "Engineered memory mechanisms to retain and retrieve state over long-running interactions.",
         "Developed scalable AI-powered SaaS microservices using Go and Python."
+      ]
+    },
+    {
+      company: "Rangsit International College",
+      role: "Software Developer Intern",
+      location: "Thailand",
+      period: "January 2022 - April 2022",
+      highlights: [
+        "Built a lightweight RAG application in Python with a FAISS vector database to answer department FAQs.",
+        "Developed a Staff Evaluation web app with a React JS frontend to analyze staff self-motivation.",
+        "Collaborated in a team of 7 to deliver both applications for the department."
       ]
     }
   ] satisfies ExperienceItem[],

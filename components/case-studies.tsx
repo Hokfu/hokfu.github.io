@@ -15,6 +15,16 @@ export function CaseStudies() {
                 <li key={`${item.title}-${tag}`}>{tag}</li>
               ))}
             </ul>
+            {item.link && (
+              <a
+                className="card-link"
+                href={item.link}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View on GitHub →
+              </a>
+            )}
           </article>
         ))}
       </div>
